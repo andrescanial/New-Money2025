@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://example.com/forest.jpg'); /* Palitan ito ng iyong forest image URL */
+    background-size: cover;
+    color: white;
+}
+.screen {
+    margin: 20px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+input, select {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+}
+button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
+#balanceAmount {
+    font-size: 24px;
+    margin: 20px 0;
+}
+.shopping-logo {
+    width: 100px;
+    height: auto;
+    margin: 10px;
+}
+.shopping-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
